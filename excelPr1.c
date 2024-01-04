@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<unistd.h>
-#include<sys/wait.h>
+// #include<sys/wait.h>
 int main(){
 	pid_t cpid;
 	int status =0;

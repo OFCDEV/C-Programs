@@ -7,7 +7,7 @@ int main(){
 	char *args[]={"arg1","arg2","arg3",NULL};
 	//Adding Environment variables
 	char* envp[]={"My","own","environment","var",NULL};
-	execve("/home/student/OSW-2141002098/execlPr2.out",args,envp);
+	execve("C:\\Users\\debas\\OneDrive\\Documents\\C-Programs\\execlPr2.exe",args,envp);
 	
 	printf("\n This line is not");
 	return 0;
