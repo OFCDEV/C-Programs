@@ -22,5 +22,18 @@ void main(){
 		sem_wait(sem2);
 		printf("3\n");
 		sem_post(sem1);
+		//Every process closes the sems
+	sem_close(sem1);
+	sem_close(sem2);
+	}
+	else{
+		sem_wait(sem1);
+		printf("2\n");
+		sem_post(sem2);
+		sem_wait("4\n");
+		
+		wait(NULL);
+	}
+}
 	}
 }
