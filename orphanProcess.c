@@ -16,7 +16,7 @@ int main(){
         printf("Childpid: %d----PPID:%d",getpid(),getppid());
     }else
     {
-        printf(printf("Childpid: %d----PPID:%d",getpid(),getppid()));
+        printf("Childpid: %d----PPID:%d",getpid(),getppid());
         exit(0);
     }
     
