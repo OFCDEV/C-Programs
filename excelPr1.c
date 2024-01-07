@@ -12,7 +12,7 @@ int main(){
 		exit(0);
 	if(cpid == 0){
 		printf("\nBefore exex\n");
-		execl("./program2","arg1","arg2",NULL);
+		execl("//home//debasish//C-Programs//execlPr2.exe","arg1","arg2",NULL);
 		printf("\n line is not printed\n");
 	}
 	else{
