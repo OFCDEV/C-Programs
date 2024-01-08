@@ -11,12 +11,12 @@ int main(){
         printf("Fork error\n");
     }else if (childpid == 0)
     {
-        printf("Childpid: %d----PPID:%d",getpid(),getppid());
+        printf("Bacha--> Childpid: %d----PPID:%d",getpid(),getppid());
         sleep(100);
         printf("Childpid: %d----PPID:%d",getpid(),getppid());
     }else
     {
-        printf("Childpid: %d----PPID:%d",getpid(),getppid());
+        printf("Baap-->Childpid: %d----PPID:%d",getpid(),getppid());
         exit(0);
     }
     
