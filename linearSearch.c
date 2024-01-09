@@ -5,7 +5,7 @@ int search(int arr[], int N, int key)
 	for (int i = 0; i < N; i++) 
 		if (arr[i] == key) 
 			return i; 
-	return -1; 0000000000g
+	return -1;
 }
 void reverse(int arr[], int N){
 	printf("Reverse order is: ");
@@ -16,6 +16,7 @@ void reverse(int arr[], int N){
 	}
 } 
 void duplicate(int arr[],int N){
+	int i;
 	for(int k=0;k<N;k++){
 		fot(int l=i+1;i<N;l++){
 			if(arr[k]==arr[l]){

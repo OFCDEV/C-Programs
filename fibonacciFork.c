@@ -21,7 +21,7 @@ int main(int argc, char *argv[]) {
         perror("fork");
         return 1;
     } else if (pid == 0) { // Child process
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i <n; i++)
             printf("%d ", fibonacci(i));
         printf("\n");
     } else { // Parent process
