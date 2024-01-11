@@ -10,7 +10,7 @@ void main(){
 		sleep(5);
 		exit();
 	}else do{
-		if(pid=waitpid(pid,&statusWNOHANG) == -1){
+		if(pid=waitpid(pid,&status,WNOHANG) == -1){
 			printf("Error");
 		}else if(pid == 0){
 			printf("Child is running.");
